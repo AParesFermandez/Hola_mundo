@@ -2,28 +2,28 @@
 print('Hola, mundo')
 # 2. imprime "Hola, Noelle" con el nombre en una variable
 name = "Noelle"
-print('Hola, ' + name + ',')	# con una coma
-print('Hola, ' + name + '+')	# con un +
+print('Hola, ' , name , '!' )	# con una coma
+print('Hola, ' + name + '!' )	# con un +
 
 #2 a
 name= "Amanda"
-print('¡Hola, ' + str(name) + '!')
+print('¡Hola, ' , str(name) , '!')
 #2 b
-print('¡Hola, ' + str(name) + '+' + '!')
+print('¡Hola, ' + str(name) + '!')
 # 3. imprimir "Hola 42!" con el número en una variable
 #3 corregido
 
 age = 42
-print('Hola, '+ str(age) + '!')	# con una coma
-print('Hola, ' + str(age) + '+')	# con una +	-- este debería arrojar un error!
+print('Hola, ' , str(age) , '!')	# con una coma
+print('Hola, ' + str(age) + '!')	# con una +	-- este debería arrojar un error!
 
 #3a
 
 num= 6
-print('¡Hola, ' + str(num) + ',' + '!')
+print('¡Hola, ' , str(num) , '!')
 
 #3b
-print('¡Hola, ' + str(num) + '+' + '!')
+print('¡Hola, ' + str(num) + '!')
 
 
 # 4. imprimir "Amo comer sushi y pizza" con las comidas en variables
